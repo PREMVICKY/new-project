@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+  .container {
+    background-image: url("ground.jpg");
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1><strong>Save & Shop</strong></h1>
+  <ul class="nav navbar-nav navbar-right">
+      <li><a href="http://www.google.com"><span class="glyphicon glyphicon-search"></span> search</a></li>  
+      </ul>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu2">About Us</a></li>
+    <li><a data-toggle="tab" href="#menu3">Contact Us</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="store.html"><img src="m.png" alt="Chania" width="5" height="5"></a>
+      </div>
+
+      <div class="item">
+        <a href="store.html"><img src="l.jpg" alt="Chania" width="5" height="5"></a>
+      </div>
+    
+      <div class="item">
+        <a href="store.html"><img src="d.png" alt="Flower" width="5" height="5"></a>
+      </div>
+    
+      <div class="item">
+        <a href="store.html"><img src="tab.png" alt="Flower" width="5" height="5"></a>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <br><br><br>
+      <div class="well well-lg"> 
+      <p class="bg-info">
+      <h4 class="bg-info">This is a site which helps you in saving your
+      valuable time and money.<br><br><br>
+
+How to use?<br><br>
+  1.select the stream?(click on icons).<br><br>
+  2.select online\offline stores.<br><br>
+  3.If online enter product name in textbox<br><br>
+          &nbsp;&nbsp;Then table is dispalyed with name of item,price,<br>
+           &nbsp;&nbsp;storename and url to store where you can find details<br>
+           &nbsp;&nbsp;of product and shop at the same time.<br><br>
+  4.If offline enter city name and product name in correspondig
+    text boxes<br><br>
+      &nbsp;&nbsp;Then table is displayed which consits of storename,<br>
+      &nbsp;&nbsp;price and address of store.<br>
+   
+</h4>
+
+      </p>
+      </div>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+    
+<br><br><br><br>      
+<div class="well well-lg">          
+  <table class="table">
+    <tbody>
+<tr>
+<address><h3>Office Address:</h3>
+            <h4>12-2-678,<br>
+            abcd towers,<br>
+            Madhapur,Hyderabad,<br>
+            5000072.<h4><address></tr>
+      <tr>
+        <td>K.Jahnavi<br>
+ mobile no.:9999999999<br>
+ Hyderabad-5000072.<br>
+ jahnawik@gmail.com
+</td>
+      <td>K.Greeshma<br>
+      mobile no.9898989898<br>
+     Hyderabad-5000072.<br>
+     greeshma.k@gmail.com
+      </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+    </div>
+  </div>
+       
+</div>
+
+</body>
+</html>
